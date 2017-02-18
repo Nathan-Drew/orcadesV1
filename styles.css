@@ -1,0 +1,99 @@
+ * {
+ 	margin: 0px;
+ }
+
+ .hide {
+	display: none;
+}
+
+body {
+	background-image: url("images/orcadesV1BG.png");
+	background-size: cover;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: top center;
+  	height: auto;
+}
+
+#selection {
+	list-style: none;
+	margin: 35% 15% 0% 15%; 
+	position: fixed;
+	width: 75%;
+}
+
+#selection a {
+	display: inline-block;
+	height: 100px; width: 100px;
+	background-size: 100px 100px;
+	opacity: 0.75;
+	transition:0.5s;
+	margin-left: 15%;
+	background-repeat: no-repeat;
+}
+
+#fb {
+	background-image: url('images/facebookBlack.svg');
+}
+
+#fb:hover {
+	background-image: url('images/facebookGrey.svg');
+	transition:0.5s;
+}
+
+#soundcloud {
+	background-image: url('images/soundcloudBlack.png');
+}
+
+#soundcloud:hover {
+	background-image: url('images/soundcloudGrey.png');
+	transition:0.5s;
+}
+
+#email {
+	background-image: url('images/emailBlack.png');
+}
+
+#email:hover {
+	background-image: url('images/emailGrey.png');
+	transition:0.5s;
+}
+
+@media screen and (max-width: 1025px) {
+	#selection a {
+	margin-left: 11%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+#selection a {
+	height: 75px; width: 75px;
+	background-size: 75px 75px;
+	margin-left: 12%;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	#selection a {
+	height: 65px; width: 65px;
+	background-size: 65px 65px;
+	}
+}
+
+@media screen and (max-width: 426px) {
+	#selection a {
+	height: 50px; width: 50px;
+	background-size: 50px 50px;
+	margin-left: 6%;
+	}
+}
+
+@media screen and (max-width: 321px) {
+	#selection a {
+	height: 45px; width: 45px;
+	background-size: 45px 45px;
+	}
+}
